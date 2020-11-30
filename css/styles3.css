@@ -1,5 +1,6 @@
 
 /* ceci c'est un  commentaire */
+
 h1 {
 	color: red;
 }
@@ -7,22 +8,21 @@ h1 {
 /* width & height */
 
 .btn {
-	/*width: 120px;
+/*	width: 120px;
 	height: 50px;*/
 	background-color: gray;
 	color: white;
 }
 
-
 /* les margins */
 
-/*.btn-m {
+.btn-m {
 	margin-top: 25px;
 	margin-left: 50px;
 	margin-bottom: 30px;
 	margin-right: 60px;
 }
-*/
+
 
 /*.btn-m {
 	margin: 25px 60px 30px 50px;
@@ -42,17 +42,20 @@ h1 {
 .btn-border {
 	/*border: 2px inset red;*/
 
-	/*border-style: inset;*/
+	border-style: inset;
 	border-bottom-style: solid;
 	border-bottom-width: 20px;
+
 	border-top-style: dotted;
-	border-right-width: dashed;
+	border-top-width: 10px;
+
 	border-left-style: double;
+	border-left-width: 10px;
 	
 	border-color: red;
-	border-width: 2px;
-
-	border-radius: 16px;
+	/*border-width: 2px;
+	border-style: solid;
+	border-radius: 16px;*/
 }
 
 /* les paddings */
