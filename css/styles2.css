@@ -1,0 +1,33 @@
+h1.title, h3.title {
+	background-color: gray;
+	color: black;
+}
+
+#section-2 {
+	background-color: green;
+	color: blue;
+}
+
+p::first-line {
+	color:red;
+}
+
+p::first-letter{
+	font-size: 50px;
+}
+
+a:active {
+	color: red;
+}
+
+a:hover {
+	color: rgb(0,255,0);
+}
+
+a:link{
+	color: rgba(255,0,0,.5);
+}
+
+a:visited{
+	color: #ff0000;
+}

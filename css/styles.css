@@ -1,0 +1,11 @@
+/* using class selctor */
+.heading {
+	color:red;
+	text-align:center;
+}
+
+/* using ID */
+#description {
+	color: white;
+	background-color: black;
+}

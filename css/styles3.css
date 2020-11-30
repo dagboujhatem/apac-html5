@@ -1,0 +1,66 @@
+
+/* ceci c'est un  commentaire */
+h1 {
+	color: red;
+}
+
+/* width & height */
+
+.btn {
+	/*width: 120px;
+	height: 50px;*/
+	background-color: gray;
+	color: white;
+}
+
+
+/* les margins */
+
+/*.btn-m {
+	margin-top: 25px;
+	margin-left: 50px;
+	margin-bottom: 30px;
+	margin-right: 60px;
+}
+*/
+
+/*.btn-m {
+	margin: 25px 60px 30px 50px;
+}*/
+
+/*.btn-m {
+	margin: 20px 60px;
+}
+*/
+
+.btn-m{
+	margin: 20px 30px 60px;
+}
+
+/* les borders */
+
+.btn-border {
+	/*border: 2px inset red;*/
+
+	/*border-style: inset;*/
+	border-bottom-style: solid;
+	border-bottom-width: 20px;
+	border-top-style: dotted;
+	border-right-width: dashed;
+	border-left-style: double;
+	
+	border-color: red;
+	border-width: 2px;
+
+	border-radius: 16px;
+}
+
+/* les paddings */
+
+.btn-padding {
+	/*padding: 20px 30px 25px;*/
+	padding-top: 20px;
+	padding-left: 30px;
+	padding-bottom: 25px;
+	padding-right: 30px;
+}

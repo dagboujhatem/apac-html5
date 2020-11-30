@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Les types des inputs</title>
+</head>
+<body>
+
+	<form method="POST" action="inscription.php">
+		<div>
+			<label for="firstname">Nom</label>
+			<input type="text" name="firstname" id="firstname" placeholder="Tapper votre nom ici">
+		</div>
+		<div>
+			<label for="email">E-mail</label>
+			<input type="email" name="email" id="email" placeholder="Tapper votre email ici">
+		</div>	
+		<div>
+			<label for="birth-date">Date de naissance</label>
+			<input type="date" name="birth-date" id="birth-date">
+		</div>	
+		<div>
+			<label for="mot-de-passe">Password </label>
+			<input type="password" name="mot-de-passe" id="mot-de-passe" placeholder="Tapper votre mot de passe ici">
+		</div>
+		<div>
+			<label for="photo">Photo de profil </label>
+			<input type="file" name="photo" id="photo" accept="image/*">
+		</div>
+		<div>
+			<label for="rendez-vous">Date de rendez-vous </label>
+			<input type="datetime-local" name="rendez-vous" id="rendez-vous">
+		</div>
+		<div>
+			<label for="couleur">Couleur </label>
+			<input type="color" name="couleur" id="couleur">
+		</div>
+		<div>
+			Les options : <br>
+			<input type="checkbox" name="html" id="html">
+			<label for="html">HTML </label>
+			<br>
+
+			<input type="checkbox" name="css" id="css">
+			<label for="css">CSS </label>
+			<br>
+
+			<input type="checkbox" name="php" id="php">
+			<label for="php">PHP </label>
+			<br>
+
+		</div>
+		<div>
+			Sexe: <br>
+			<input type="radio" name="sexe" id="femme">
+			<label for="femme">Femme </label>
+			<br>
+			<input type="radio" name="sexe" id="homme">
+			<label for="homme">Homme </label>
+		</div>
+		<div>
+			<label for="age">Âge</label>
+			<input type="number" name="age" id="age" min="0" max="150" step="5">
+		</div>
+		<div>
+			<label for="prix">Sélecteur de prix</label>
+			<input type="range" name="prix" id="prix">
+		</div>
+		<div>
+			<label for="hidden">Hidden</label>
+			<input type="hidden" name="hidden" id="hidden">
+		</div>
+		<div>
+			<label for="website">Web site</label>
+			<input type="url" name="website" id="website" placeholder="Tapper votre URL ici">
+		</div>
+		<div>
+			<label for="chercher">chercher ici</label>
+			<input type="search" name="chercher" id="chercher" placeholder="Tapper votre text à rechercher ici">
+		</div>
+		<div>
+			<label for="phone">Phone number</label>
+			<input type="tel" name="phone" id="phone" placeholder="Tapper votre numéro de téléphone ici">
+		</div>
+		<div>
+			<label for="comment">Commentaire</label>
+			<textarea name="comment" id="comment" placeholder="Tapper votre commentaire ici" cols="150" rows="10"></textarea>
+		</div>
+		<div>
+			<label for="options">Options en  développement informatique</label>
+			<select name="options" id="options" multiple="true">
+				<optgroup label="Développement Web">
+					<option value="HTML">HTML</option>
+					<option value="CSS">CSS</option>
+					<option value="PHP">PHP</option>
+				</optgroup>
+				<optgroup label="Design Web">
+					<option value="Photoshop">Photoshop</option>
+					<option value="Sketch">Sketch</option>
+					<option value="InVision">InVision</option>
+				</optgroup>
+			</select>
+		</div>
+		<div>
+			<input type="button" value="Lien vers mon page FB">
+			<button type="button">Lien vers mon page FB</button>
+
+			<input type="reset" value="Annuler">
+			<button type="rest">Annuler</button>
+
+			<input type="submit" value="S'inscrire">
+			<button type="submit">S'inscrire</button>
+		</div>
+	</form>
+
+
+	<fieldset>
+		<legend>Inscription</legend>
+		
+	</fieldset>
+</body>
+</html>
